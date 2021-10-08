@@ -15,7 +15,7 @@
 // 2.
 // const s = 'Hello beauty there';
 // const a = Array(s)
-// const myArr = s.split(' ',3);
+// const myArr = s.split(' ',);
 // console.log(myArr);
 // 3.
 // const a = [4, 5, 7, -8];
