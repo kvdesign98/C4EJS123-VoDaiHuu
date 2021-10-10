@@ -154,8 +154,123 @@
 //     varr.push(sth);
 // }
 // console.log(varr);
-6.
+// 6.1
+// let prints = [
+//     {
+//         task: 'HTML',
+//         process: false
+//     },
+//     {
+//         task: 'CSS',
+//         process: false
+//     },
+//     {
+//         task: 'Basic of JavaScript',
+//         process: false
+//     },
+//     {
+//         task: 'Node Package Manager (npm)',
+//         process: false
+//     },
+//     {
+//         task: 'Git',
+//         process: false
+//     },
+// ]
+// console.log('Hi there');
+// for (i = 0; i < prints.length; i++) {
+//     console.log(`${i+1}. ${prints[i].task}`);
+//     console.log(`   Complete: ${prints[i].process}`);
+// }
+// 6.2
+// let sports = prompt('Nhập sports (new, delete, update, complete');
+// if (sports == 'new') {
+//     let newTask = prompt('Nhập nhiệm vụ ');
+//     prints.push({task: newTask, process: false});
+// }
+// console.clear();
+// for (i = 0; i < prints.length; i++) {
+//     console.log(`${i+1}. ${prints[i].task}`);
+//     console.log(`Complete: ${prints[i].process}`);
+// }
+// 6.3
+// let sports = prompt('Nhập sports (new, delete, update, complete');
+// if (sports == 'update') {
+//     let location = Number(prompt('location cần update'));
+//     let newTask = prompt('Nhập học tập mới');
+//     prints[location-1].task = newTask;
+//     console.log(prints);
 
+// }
+// console.clear();
+// for (i = 0; i < prints.length; i++) {
+//     console.log(`${i+1}. ${prints[i].task}`);
+//     console.log(`Complete: ${prints[i].process}`);
+// }
+// 6.4
+// let sports = prompt('Nhập sports (new, delete, update, complete');
+// if (sports == 'complete') {
+//     let location = Number(prompt('location cần hoàn thành'));
+//     prints[location-1].process = true;
+// }
+// console.clear();
+// for (i = 0; i < prints.length; i++) {
+//     console.log(`${i+1}. ${prints[i].task}`);
+//     console.log(`Complete: ${prints[i].process}`);
+// }
+// 6.5
+// let sports = prompt('Nhập sports (new, delete, update, complete');
+// if (sports == 'delete') {
+//     let location = Number(prompt('location cần xóa'));
+//     prints.splice(location-1, 1);
+// }
+// console.clear();
+// for (i = 0; i < prints.length; i++) {
+//     console.log(`${i+1}. ${prints[i].task}`);
+//     console.log(`Complete: ${prints[i].process}`);
+// }
+// 6.6
+// let sports = prompt('Nhập sports (new, delete, update, complete)');
+// if (sports == 'new') {
+//     let newTask = prompt('Nhập học tập mới');
+//     prints.push({task: newTask, process: false});
+//     console.clear();
+//     for (i = 0; i < prints.length; i++) {
+//         console.log(`${i+1}. [ ] ${prints[i].task}`);
+//     }
+// }
+
+// if (sports == 'update') {
+//     let location = Number(prompt('location cần update'));
+//     let newTask = prompt('Nhập học tập mới');
+//     prints[location-1].task = newTask;
+//     console.clear();
+//     for (i = 0; i < prints.length; i++) {
+//         console.log(`${i+1}. [ ] ${prints[i].task}`);
+//     }
+// }
+// if (sports == 'complete') {
+//     let location = Number(prompt('location cần sports'));
+//     prints[location-1].process = true;
+//     console.clear();
+//     for (i = 0; i < prints.length; i++) {
+//         if (i == location - 1) {
+//             console.log(`${i+1}. [x] ${prints[i].task}`);
+//         } else {
+//             console.log(`${i+1}. [ ] ${prints[i].task}`);
+//         }
+        
+//     }
+// }
+// if (sports == 'delete') {
+//     let location = Number(prompt('location cần xóa'));
+//     prints.splice(location-1, 1);
+//     console.clear();
+//     for (i = 0; i < prints.length; i++) {
+//         console.log(`${i+1}. [ ] ${prints[i].task}`);
+//     }
+// }
+// tham khảo bài a Tâm
 // 15
 //    let jobS={
 //          hits:[
