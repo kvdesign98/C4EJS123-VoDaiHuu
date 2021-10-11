@@ -146,7 +146,7 @@
 // \n\nName:${type[1].Name}\nPrice:${type[1].Price}\nProviders:${type[1].Providers}
 // \n\nName:${type[2].Name}\nPrice:${type[2].Price}\nProviders:${type[2].Providers}
 // \n\nName:${type[3].Name}\nPrice:${type[3].Price}\nProviders:${type[3].Providers}`)
-//5.5
+// 5.5
 // const varr = [];
 // for (let i = 0 ; i < product.length ; i++)
 // {
