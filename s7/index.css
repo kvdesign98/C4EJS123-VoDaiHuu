@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background:url(/C4EJS123-VoDaiHuu/s7/images/bg.jpg) center 0 no-repeat;
+    background-size: cover;
+  
+}
+.container{
+    justify-content: center;
+}
+
+
+
+
+.title{
+    background-color: rgb(103, 141, 167);
+    display: flex;
+    justify-content: center;   
+}
+.title__logo{       
+    height:150px;   
+  
+}
+
+
+
+
+
+
+.nametitle{
+    color:#fff700;
+    font-size:60px;
+    justify-content: center; 
+    display: flex;    
+}
+
+.mainpart{
+    color:rgb(255, 255, 255);
+display: flex;
+justify-content:space-evenly;
+}
+.mainpart__title{
+    color:#ff0000;
+    display: flex;
+    font-size:30px;
+    justify-content:space-evenly
+}
+
+
+
+
+
+
+.above{
+    float: left;
+    width: 70%;
+}
+.below{
+    float:right;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+.theend{
+    color:white;
+    
+}
+.theend__title--new{
+    display:contents;
+}
+
+.theend__title--news{
+    color:red;
+    font-size:25px;
+}
+.theend__information{
+    display:contents;  
+}
+
+
+
+
+
+
+.__{
+    color:rgb(208, 255, 0);
+    justify-content: center; 
+    display: flex;    
+}
+.___{
+    color:rgb(208, 255, 0);
+    justify-content: center; 
+    display: flex;    
+}
+.____{
+    color:rgb(208, 255, 0);
+    justify-content: center; 
+    display: flex;    
+}
+.________{
+    color:rgb(224, 224, 221);
+    justify-content: center; 
+    display: flex;    
+}
+.______{
+    color:rgb(208, 255, 0);
+    justify-content: center; 
+    display: flex;    
+}
+._{ 
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img{
+  
+    width:100%;
+   
+}
+img {
+    width: 100%
+}
+ .imgs{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+
+@media all and (max-width: 480px) {  
+    .imgs{
+       flex-direction: column;
+    }
+    .img {
+        width: 100%;
+    }
+ }
+ @media all and (max-width: 1024px) {
+ }
+ 
+ 
+
+
